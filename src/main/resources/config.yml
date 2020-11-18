@@ -1,0 +1,23 @@
+# -= Untethered Spawners =-
+#     Created by Scill
+#
+# Maximum wait time between spawns.
+max-wait-time: 600
+# Minimum wait time between spawns.
+min-wait-time: 200
+# Maximum amount of spawns.
+max-spawn-amount: 4
+# Minimum amount of spawns.
+min-spawn-amount: 2
+# Radius player has to be in to activate the spawner.
+radius-from-player: 16
+# The maximum distance mobs will spawn from the spawner.
+radius-from-spawner: 4
+
+admin:
+  # Called when the plugin is reloaded.
+  reload: '&aUntetheredSpawners has been reloaded!'
+
+errors:
+  # Called if a player attempts to reload the plugin without permission.
+  insufficient-permissions: '&cYou do not have permission to this command.'

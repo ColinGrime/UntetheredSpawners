@@ -1,0 +1,13 @@
+name: ${project.name}
+main: ${main.class}
+version: ${project.version}
+author: Scill
+commands:
+   spawners:
+      description: Reloads the plugin.
+      usage: /<command>
+      aliases: [spawners]
+permissions:
+   spawners.reload:
+      description: Reloads the plugin.
+      default: op
